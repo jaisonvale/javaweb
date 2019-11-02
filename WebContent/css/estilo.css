@@ -1,0 +1,105 @@
+/****UFPI-UNIVERSIDADE FEDERAL DO PIAUÃ�
+*****CEAD-CENTRO DE EDUCAÃ‡ÃƒO ABERTA A DISTANCIA
+*****DISCIPLINA: DESENVOLVIMENTO PARA WEB
+*****DESENVOLVIDO PELO ALUNO: JAISON DO VALE SILVA
+
+
+***DESENVOLVIMENTO PARA WEB
+
+**/
+
+body{
+	color: black;
+	background: #ffffff;
+	margin: 20px;
+}
+.top {
+	background: #ddfd;
+	border: 1px solid #fdd;
+	float: none;
+}
+.top li {
+	display: inline-block;
+}
+.top a {
+	text-decoration: none;
+	color: green;
+}
+.aba {
+	background: #ddf;
+	border: 0.9px solid orange;
+	padding: 10px;
+	margin: 1px;
+}
+.aba:not(:fullscreen) {
+	background: #fff;
+}
+
+.aba:hover {
+	background: #ccdddd;
+}
+
+form{
+	padding: 1px;
+	margin: 10px;
+}
+
+.box {
+	background: #ffd;
+	border: 1px solid orange;
+	font-size: 15px;
+	font-family: verdana;
+	padding:4px;
+	color: #800080;
+	margin: 10px;
+}
+
+.bloco {
+	border: 2px solid #ccc;
+	border-radius: 10px;
+}
+
+.subtitulo {
+	background: #ddd;
+	border-radius: 4px;
+	font-size: 38px;
+	color: #000040;
+	padding: 2px;
+	margin: 4px;
+}
+
+.bntSalvar {
+	text-align: center;
+}
+
+.bnt {
+	color: green;
+	font-style: none;
+	font-size: 20px;
+	background: #ffffff;
+	border: 2px solid #ff0000;
+	border-radius: 5px;
+}
+.bnt:hover {
+	background: #ddf;
+	color: black;
+}
+
+.rodape {
+	background: #ddf;
+	color: black;
+	font-family: verdana; 
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+
+.container {width: 800px; border: 1px solid #233d; margin: 8px auto;background: #b5b5b5; }
+.row { margin-left: -20px; } 
+.span1 {width: 200px; float:	left; margin-left: 60px; background: #d5d5d5 } 
+.row:after {  /* técnica moderna para clear floats */ 
+	content: ""; 
+	display: table;
+	line-height: 0;
+	clear:both;
+	}
